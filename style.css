@@ -1,0 +1,84 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+th, td {
+    border: 1px solid rgb(163, 163, 163);
+    padding: 8px;
+    text-align: left;
+}
+th {
+    background-color: #f2f2f2;
+}
+
+.btn-save{
+    width: 85px;
+    height: 35px;
+    border: none;
+border-radius: 5px;
+    background-color: rgb(0, 140, 255);
+}
+
+.btn-save:hover{
+    background-color: rgb(0, 108, 196);
+    cursor: pointer;
+}
+
+.btn-update{
+    width: 85px;
+    height: 35px;
+    border: none;
+border-radius: 5px;
+    background-color: rgb(255, 174, 0);
+}
+
+.btn-update:hover{
+    background-color: rgb(211, 144, 0);
+    cursor: pointer;
+}
+
+
+.btn-delete{
+    width: 85px;
+    height: 35px;
+    border: none;
+border-radius: 5px;
+    background-color: rgb(230, 28, 28);
+}
+
+.btn-delete:hover{
+    background-color: rgb(172, 17, 17);
+    cursor: pointer;
+}
+
+.input-form{
+    width: 275px;
+    height: 25px;
+    border: 2px solid #d4d4d4; 
+    border-radius: 3px;
+    outline: none;
+    margin: 10px;
+}
+
+.input-form:focus{
+    border: 2px solid rgb(0, 140, 255);
+}
+
+.container{
+    width: 75%;
+    margin: 0 auto;
+    margin-top: 50px;
+    
+}
+
+.row{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-content{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}

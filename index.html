@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="container">
+        <form  class="form-content" id="miFormulario">
+            <div class="row">
+                <label for="empresa">Nombre</label>
+                <input name="empresa" class="input-form" id="nombre" required/>
+                
+            </div>
+            <div class="row">
+                <label for="nit">NIT</label>
+                <input name="nit" class="input-form" id="nit" required/>
+            </div>
+            <div class="row">
+                <label for="fecha">Fecha de Fundación</label>
+                <input name="fecha" class="input-form" type="date" id="fecha" required/>
+            </div>
+            <div class="row">
+                <label for="direccion">Dirección</label>
+                <input name="direccion" class="input-form" id="direccion" required/>
+            </div>
+        
+            <button class="btn-save" type="submit">Guardar</button>
+        </form>
+
+        <br />
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Nombre</th>
+                    <th>NIT</th>
+                    <th>Fecha</th>
+                    <th>Dirección</th>
+                    <th>Acciones</th>
+                </tr>
+            </thead>
+
+            <tbody id="body-table">
+                
+                    
+               
+            </tbody>
+        </table>
+
+
+    </div>
+
+
+
+    
+    <script src="app.js"></script>
+</body>
+</html>
